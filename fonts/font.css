@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Banny BoldRound';
+    font-weight: bold;
+    font-style: normal;
+    src: local("Banny BoldRound"), url(./Banny-BoldRound.woff);
+  }

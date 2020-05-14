@@ -1,0 +1,135 @@
+$background: black;
+$text: Open Sans;
+$margin: 0 auto;
+$padding: 0;
+$color: #e8c300;
+@mixin h2($color) {
+  font-weight: bold;
+  margin: 0 auto;
+  font-family: Banny;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: $color;
+  text-transform: uppercase;
+  padding-bottom: 6px;
+}
+@mixin line {
+  width: 64.73px;
+  height: 5px;
+  left: 1007.14px;
+  top: 1748px;
+  background: #e8c300;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 0 auto;
+}
+@mixin par($color) {
+  font-family: Open Sans;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: $color;
+  padding-top: 16px;
+  font-weight: bold;
+}
+.container5 {
+  .owl-carousel {
+    h2 {
+      @include h2(#fff);
+    }
+  }
+}
+
+.container6 {
+  text-align: center;
+  margin: $margin;
+  h2 {
+    @include h2(#000000);
+    padding-top: 72px;
+  }
+  .line {
+    @include line;
+  }
+  .title {
+    @include par(#000000);
+  }
+  .formaa {
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    width: 94%;
+  }
+  .form-control {
+    border: 0;
+    background: #e5e5e5;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-indent: 20px;
+
+    color: rgba(51, 51, 51, 0.5);
+  }
+  .qwas{
+    height: 63px;
+  }
+  .full {
+    margin-top: 10px;
+  }
+  .qwe{
+    height: 112px;
+  }
+}
+@mixin flex {
+  display: flex;
+  padding: 0;
+}
+.flex_all {
+  left: 15px;
+  padding-top: 8px;
+  @include flex;
+  margin-top: 10px;
+  .left_flex {
+    @include flex;
+    padding-top: 10px;
+    div {
+      padding-right: 26px;
+      display: flex;
+      i {
+        padding-right: 8px;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 14px;
+        color: $color;
+      }
+      p {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 12px;
+        color: rgba(51, 51, 51, 0.5);
+      }
+    }
+  }
+  .right_flex {
+    @include flex;
+    background: $color;
+    border-radius: 5px;
+    p {
+      text-transform: uppercase;
+      font-family: Open Sans;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 20px;
+      color: #ffffff;
+      margin: 0 auto;
+      padding: 21px;
+    }
+  }
+}

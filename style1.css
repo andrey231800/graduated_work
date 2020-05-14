@@ -1,0 +1,152 @@
+.container5 .owl-carousel h2 {
+  font-weight: bold;
+  margin: 0 auto;
+  font-family: Banny;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 6px;
+}
+
+.container6 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container6 h2 {
+  font-weight: bold;
+  margin: 0 auto;
+  font-family: Banny;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+  padding-bottom: 6px;
+  padding-top: 72px;
+}
+
+.container6 .line {
+  width: 64.73px;
+  height: 5px;
+  left: 1007.14px;
+  top: 1748px;
+  background: #e8c300;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.container6 .title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+  padding-top: 16px;
+  font-weight: bold;
+}
+
+.container6 .formaa {
+  margin: 0 auto;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  width: 94%;
+}
+
+.container6 .form-control {
+  border: 0;
+  background: #e5e5e5;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-indent: 20px;
+  color: rgba(51, 51, 51, 0.5);
+}
+
+.container6 .qwas {
+  height: 63px;
+}
+
+.container6 .full {
+  margin-top: 10px;
+}
+
+.container6 .qwe {
+  height: 112px;
+}
+
+.flex_all {
+  left: 15px;
+  padding-top: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.flex_all .left_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  padding-top: 10px;
+}
+
+.flex_all .left_flex div {
+  padding-right: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex_all .left_flex div i {
+  padding-right: 8px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+  color: #e8c300;
+}
+
+.flex_all .left_flex div p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 12px;
+  color: rgba(51, 51, 51, 0.5);
+}
+
+.flex_all .right_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  background: #e8c300;
+  border-radius: 5px;
+}
+
+.flex_all .right_flex p {
+  text-transform: uppercase;
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ffffff;
+  margin: 0 auto;
+  padding: 21px;
+}
+/*# sourceMappingURL=style1.css.map */
